@@ -1,4 +1,12 @@
-/* Style dla nagłówka i nawigacji */
+@media screen and (max-width: 900px) {
+  .about-me-section {
+    flex-direction: column;
+  }
+  nav ul li {
+  display: table-column;
+  margin-top: 20px;
+}
+}
 html {
   scroll-behavior: smooth;
 }
@@ -65,11 +73,6 @@ h2 {
   text-align: center;
   padding: 5%;
   width: 100%;
-}
-@media screen and (max-width: 900px) {
-  .about-me-section {
-    flex-direction: column;
-  }
 }
 
 #galeria {
