@@ -1,12 +1,4 @@
-@media screen and (max-width: 900px) {
-  .about-me-section {
-    flex-direction: column;
-  }
-  nav ul li {
-  display: table-column;
-  margin-top: 20px;
-}
-}
+/* Style dla nagłówka i nawigacji */
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +13,6 @@ header {
   text-align: center;
   padding-bottom: 5px;
 }
-
 h1 {
   margin: 0px;
   padding: 20px;
@@ -186,4 +177,13 @@ footer {
 }
 footer p {
   margin: 0;
+}
+@media screen and (max-width: 900px) {
+  .about-me-section {
+    flex-direction: column;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
 }
