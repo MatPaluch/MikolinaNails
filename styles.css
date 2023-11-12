@@ -7,6 +7,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", sans-serif;
 }
+
 header {
   background: linear-gradient(to bottom, #a105f5, #630099);
   text-align: center;
@@ -23,16 +24,13 @@ h1 a {
   text-decoration: none;
   color: #ffffff;
 }
-
 nav ul {
   list-style: none;
 }
-
 nav ul li {
   display: inline;
   margin-top: 20px;
 }
-
 nav a {
   text-decoration: none;
   color: #ffffff;
@@ -43,7 +41,6 @@ nav a:hover {
   background-color: #b44df8;
   transform: scale(1.1);
 }
-
 h2 {
   font-size: 28px;
   color: #333;
@@ -51,71 +48,54 @@ h2 {
 }
 
 #o-mnie {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  margin-top: 60px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-
 .about-me-section {
   display: flex;
+  margin-top: 80px;
   align-items: center;
-  max-width: 1200px;
-  padding: 20px;
+  flex-direction: row;
 }
-
-.about-me-image {
-  flex: 1;
-  text-align: center;
-  margin-right: 50px; /* Dodaj odstęp od obrazka */
-}
-
 .about-me-image img {
-  max-width: 80%;
-  height: auto;
+  width: 100%;
 }
-
 .about-me-text {
-  flex: 1;
   text-align: center;
-  padding: 20px; /* Dodaj wewnętrzny odstęp */
+  padding: 5%;
+  width: 100%;
 }
-
-.about-me-text p {
-  font-size: 18px;
-  text-decoration: none;
+@media screen and (max-width: 900px) {
+  .about-me-section {
+    flex-direction: column;
+  }
 }
 
 #galeria {
   padding: 40px 0;
   text-align: center;
-}
-
-.gallery {
-  display: table;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
 }
-
+.gallery {
+  display: table;
+}
 .gallery-row {
   display: table-row;
 }
-
 .gallery-cell {
   display: table-cell;
   padding: 1%;
   position: relative;
 }
-
 .gallery-cell img {
   max-width: 100%;
   height: auto;
   transition: transform 0.5s;
   max-height: 60vh; /* Ustaw maksymalną wysokość obrazu na 60% wysokości strony */
 }
-
 .gallery-cell img:hover {
   transform: scale(1.1);
 }
@@ -126,7 +106,6 @@ h2 {
   align-items: center;
   margin-bottom: 60px;
 }
-
 .uslugi {
   width: 700px;
   padding: 60px;
@@ -145,17 +124,14 @@ h2 {
   font-size: 40px;
   text-align: center;
 }
-
 .uslugi-tekst ul {
   list-style: square;
   padding: 0;
 }
-
 .uslugi-tekst li {
   font-size: 16px;
   margin: 10px 0;
 }
-
 .opis {
   color: #a5a5a5;
   margin: 0px;
@@ -194,7 +170,6 @@ address a {
   display: flex;
   align-items: center;
 }
-
 address img {
   width: 32px;
   height: 32px;
