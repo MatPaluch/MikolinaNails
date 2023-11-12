@@ -1,223 +1,211 @@
 /* Style dla nagłówka i nawigacji */
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+body {
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", sans-serif;
 }
 header {
-    background: linear-gradient(to bottom,#a105f5,#630099);
-    text-align: center;
-    padding-bottom: 5px;
+  background: linear-gradient(to bottom, #a105f5, #630099);
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 h1 {
-    margin: 0px;
-    padding: 20px;
-    font-size: 60px;
-    font-family: 'Allura', sans-serif;
+  margin: 0px;
+  padding: 20px;
+  font-size: 60px;
+  font-family: "Allura";
 }
-h1 a{
-    text-decoration: none;
-    color: #ffffff;
+h1 a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li {
-    display: inline;
-    margin-top: 20px;
+  display: inline;
+  margin-top: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px;
 }
-nav a:hover{
-    background-color: #b44df8;
-    transform: scale(1.1);
+nav a:hover {
+  background-color: #b44df8;
+  transform: scale(1.1);
 }
-
 
 h2 {
-    font-size: 28px;
-    color: #333;
-    text-transform: uppercase ;
+  font-size: 28px;
+  color: #333;
+  text-transform: uppercase;
 }
 
-
-#o-mnie{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    margin-top: 60px;
+#o-mnie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 60px;
 }
 
 .about-me-section {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
 }
 
 .about-me-image {
-    flex: 1;
-    text-align: center;
-    margin-right: 50px; /* Dodaj odstęp od obrazka */
+  flex: 1;
+  text-align: center;
+  margin-right: 50px; /* Dodaj odstęp od obrazka */
 }
 
 .about-me-image img {
-    max-width: 80%;
-    height: auto;
+  max-width: 80%;
+  height: auto;
 }
 
 .about-me-text {
-    flex: 1;
-    text-align: center;
-    padding: 20px; /* Dodaj wewnętrzny odstęp */
+  flex: 1;
+  text-align: center;
+  padding: 20px; /* Dodaj wewnętrzny odstęp */
 }
 
 .about-me-text p {
-    font-size: 18px;
-    text-decoration: none;
+  font-size: 18px;
+  text-decoration: none;
 }
-
-iframe{
-    border: 0px;
-}
-
 
 #galeria {
-    padding: 40px 0;
-    text-align: center;
+  padding: 40px 0;
+  text-align: center;
 }
 
-    .gallery {
-        display: table;
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .gallery-row {
-        display: table-row;
-    }
-
-    .gallery-cell {
-        display: table-cell;
-        padding: 1%;
-        position: relative;
-    }
-
-    .gallery-cell img {
-        max-width: 100%;
-        height: auto;
-        transition: transform 0.5s;
-        max-height: 60vh; /* Ustaw maksymalną wysokość obrazu na 60% wysokości strony */
-          
-    }
-
-    .gallery-cell img:hover {
-        transform: scale(1.1);
-    }
-
-
-
-#uslugi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px;
-    }
-    
-    .uslugi{
-        width: 700px;
-        padding: 60px;
-        padding-top: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #ccc; /* Dodaj lekkie obramowanie */
-        background-color: #f5f5f5; /* Dodaj tło */
-        
-    }
-    .uslugi-tekst {
-        flex: 1;
-        padding: 20px; /* Dodaj wewnętrzny odstęp */
-    }
-    .uslugi-tekst h2 {
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    .uslugi-tekst ul {
-        list-style:square ;
-        padding: 0;
-    }
-    
-    .uslugi-tekst li {
-        font-size: 16px;
-        margin: 10px 0;
-    }
-
-
-    .opis{
-        color: #a5a5a5;
-        margin: 0px;
-        font-size: 12px;
-        margin-left: 10px;
-    
-    }
-
-
-
-
-
-#kontakt{
-    align-items: center;
-    margin: 0;
-    color: white;
-    flex-direction: row; 
-    padding: 60px;
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(to bottom,#a105f5,#630099);
-}
-#kontakt h2{
-    color: white;
-}
-#kontakt p{
-    padding-left: 10%;
-    padding-right: 10%;
+.gallery {
+  display: table;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-address a{
-    text-decoration:none;
-    color: white;
+.gallery-row {
+  display: table-row;
 }
 
-address img{
-    width: 24px;
-    height: 24px;
-    
+.gallery-cell {
+  display: table-cell;
+  padding: 1%;
+  position: relative;
 }
 
-
-
-
-
-
-footer{
-    background-color: #333;
-    text-align: center;
-    color: white;
+.gallery-cell img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+  max-height: 60vh; /* Ustaw maksymalną wysokość obrazu na 60% wysokości strony */
 }
-footer p{
-    margin: 0;
+
+.gallery-cell img:hover {
+  transform: scale(1.1);
+}
+
+#uslugi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.uslugi {
+  width: 700px;
+  padding: 60px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* Dodaj lekkie obramowanie */
+  background-color: #f5f5f5; /* Dodaj tło */
+}
+.uslugi-tekst {
+  flex: 1;
+  padding: 20px; /* Dodaj wewnętrzny odstęp */
+}
+.uslugi-tekst h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.uslugi-tekst ul {
+  list-style: square;
+  padding: 0;
+}
+
+.uslugi-tekst li {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.opis {
+  color: #a5a5a5;
+  margin: 0px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+#kontakt {
+  align-items: center;
+  margin: 0;
+  color: white;
+  flex-direction: row;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #a105f5, #630099);
+}
+#kontakt h2 {
+  color: white;
+}
+#kontakt p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+address {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+address a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+address img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  color: white;
+}
+footer p {
+  margin: 0;
 }
