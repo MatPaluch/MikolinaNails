@@ -203,9 +203,9 @@ address a{
 }
 
 address img{
+    width: 24px;
+    height: 24px;
     
-        fill: #0000ff; /* Kolor niebieski */
-     
 }
 
 
