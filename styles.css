@@ -99,6 +99,7 @@ h2 {
   padding-left: 20%;
   padding-right: 20%;
   margin-bottom: 60px;
+  display: none;
 }
 .uslugi {
   border: 1px solid grey;
