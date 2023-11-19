@@ -203,3 +203,7 @@ footer p {
     text-align: center;
   }
 }
+
+.temp {
+  display: none;
+}
