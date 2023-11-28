@@ -118,6 +118,7 @@ h2 {
   overflow-wrap: break-word;
   font-size: 16px;
   margin-bottom: 40px;
+  border-bottom: 1px dashed grey;
 }
 .cent {
   display: flex;
@@ -127,8 +128,8 @@ h2 {
   color: #a5a5a5;
   margin: 0px;
   font-size: 12px;
-  margin-left: 10px;
-  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 20px;
 }
 
 #kontakt {
@@ -202,8 +203,4 @@ footer p {
   .li-left {
     text-align: center;
   }
-}
-
-.temp {
-  display: none;
 }
