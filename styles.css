@@ -36,6 +36,7 @@ nav a {
   color: #ffffff;
   font-weight: bold;
   padding: 20px;
+  font-size: 40px;
 }
 nav a:hover {
   background-color: #b44df8;
